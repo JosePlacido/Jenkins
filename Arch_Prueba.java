@@ -22,7 +22,7 @@ public class ConverterTest {
         double expectedFarenheitResult = 78;
         double celsiusInput = 23.88;
 
-        assertEquals(expectedCelsiusResult,
-               converter.convertFarenheitCelsius(farenheitInput), 0.02);
+        assertEquals(expectedFarenheitResult,
+               converter.convertCelsiusFarenheit(celsiusInput), 0.02);
     }
 }
